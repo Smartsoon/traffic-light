@@ -1,0 +1,10 @@
+import React from 'react';
+import TrafficLights from "./components/TrafficLights";
+
+function App() {
+  return (
+      <TrafficLights/>
+  );
+}
+
+export default App;
