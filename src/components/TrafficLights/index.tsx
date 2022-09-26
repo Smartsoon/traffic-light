@@ -10,10 +10,8 @@ const timeoutTime = 5000
 const TrafficLights: React.FC = () => {
     const [activeTrafficLight, setActiveTrafficLight] = useState<TrafficLightColor>(trafficLights[0].id)
 
-    let trafficTimeout: any
-
     useEffect(() => {
-        trafficTimeout = setTimeout(() => {
+        const trafficTimeout = setTimeout(() => {
             trafficLightToggle()
         }, timeoutTime)
         return () => clearTimeout(trafficTimeout)
