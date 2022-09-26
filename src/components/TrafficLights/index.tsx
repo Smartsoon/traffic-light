@@ -1,8 +1,8 @@
 import './index.css'
-import {trafficLights} from "../data/trafficLightsData";
+import {trafficLights} from "../../data/trafficLightsData";
 import TrafficLight from "../TrafficLight";
 import {useEffect, useState} from "react";
-import {TrafficLightColor} from "../models/trafficLightsModels";
+import {TrafficLightColor} from "../../models/trafficLightsModels";
 import React from 'react';
 
 const timeoutTime = 5000
